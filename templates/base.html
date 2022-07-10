@@ -37,7 +37,7 @@
                   <nav class="main-nav">
                       <!-- ***** Logo Start ***** -->
                       <a href="index.html" class="logo">
-                          <img src="assets/images/logo.png" alt="">
+                          <img src="{% static 'assets/images/logo.png' %}" alt="">
                       </a>
                       <!-- ***** Logo End ***** -->
                       <!-- ***** Menu Start ***** -->
@@ -71,14 +71,14 @@
   <div class="swiper-container" id="top">
     <div class="swiper-wrapper">
       <div class="swiper-slide">
-        <div class="slide-inner" style="background-image:url(assets/images/slide-01.jpg)">
+        <div class="slide-inner" style="background-image:url({% static 'assets/images/slide-01.jpg' %})">
           <div class="container">
             <div class="row">
               <div class="col-lg-8">
                 <div class="header-text">
                   <h2>Get <em>ready</em> for your business<br>&amp; upgrade <em>all aspects</em></h2>
                   <div class="div-dec"></div>
-                  <p>Mexant HTML5 Template is provided for free of charge. This layout is based on Boostrap 5 CSS framework. Anyone can download and edit for any professional website. Thank you for visiting TemplateMo website.</p>
+                  <p>Translation Hub World website helps you translate text from one language to another.</p>
                   <div class="buttons">
                     <div class="green-button">
                       <a href="#">Discover More</a>
@@ -93,8 +93,8 @@
           </div>
         </div>
       </div>
-      <div class="swiper-slide">
-        <div class="slide-inner" style="background-image:url(assets/images/slide-02.jpg)">
+      <!-- <div class="swiper-slide">
+        <div class="slide-inner" style="background-image:url({% static 'assets/images/slide-02.jpg' %})">
           <div class="container">
             <div class="row">
               <div class="col-lg-8">
@@ -117,7 +117,7 @@
         </div>
       </div>
       <div class="swiper-slide">
-        <div class="slide-inner" style="background-image:url(assets/images/slide-03.jpg)">
+        <div class="slide-inner" style="background-image:url({% static 'assets/images/slide-03.jpg' %})">
           <div class="container">
             <div class="row">
               <div class="col-lg-8">
@@ -138,10 +138,10 @@
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
     </div>
-    <div class="swiper-button-next swiper-button-white"></div>
-    <div class="swiper-button-prev swiper-button-white"></div>
+    <!-- <div class="swiper-button-next swiper-button-white"></div>
+    <div class="swiper-button-prev swiper-button-white"></div> -->
   </div>
 
   <!-- ***** Main Banner Area End ***** -->
@@ -214,10 +214,6 @@
       </div>
     </div>
   </section>
-
-  {% block content %}
-
-  {% endblock %}
 
   <section class="about-us" id="about">
     <div class="container">
@@ -366,7 +362,7 @@
       <div class="row">
         <div class="col-lg-7">
           <div class="left-image">
-            <img src="assets/images/calculator-image.png" alt="">
+            <img src="{% static 'assets/images/calculator-image.png' %}" alt="">
           </div>
         </div>
         <div class="col-lg-5">
@@ -435,7 +431,7 @@
               <h4>David Eigenberg</h4>
               <span>CEO of Mexant</span>
               <div class="right-image">
-                <img src="assets/images/testimonials-01.jpg" alt="">
+                <img src="{% static 'assets/images/testimonials-01.jpg' %}" alt="">
               </div>
             </div>
             <div class="item">
@@ -444,7 +440,7 @@
               <h4>Andrew Garfield</h4>
               <span>CTO of Mexant</span>
               <div class="right-image">
-                <img src="assets/images/testimonials-01.jpg" alt="">
+                <img src="{% static 'assets/images/testimonials-01.jpg' %}" alt="">
               </div>
             </div>
             <div class="item">
@@ -453,7 +449,7 @@
               <h4>George Lopez</h4>
               <span>Crypto Manager</span>
               <div class="right-image">
-                <img src="assets/images/testimonials-01.jpg" alt="">
+                <img src="{% static 'assets/images/testimonials-01.jpg' %}" alt="">
               </div>
             </div>
           </div>
@@ -467,32 +463,32 @@
       <div class="row">
         <div class="col-lg-2 col-sm-4 col-6">
           <div class="item">
-            <img src="assets/images/client-01.png" alt="">
+            <img src="{% static 'assets/images/client-01.png' %}" alt="">
           </div>
         </div>
         <div class="col-lg-2 col-sm-4 col-6">
           <div class="item">
-            <img src="assets/images/client-01.png" alt="">
+            <img src="{% static 'assets/images/client-01.png' %}" alt="">
           </div>
         </div>
         <div class="col-lg-2 col-sm-4 col-6">
           <div class="item">
-            <img src="assets/images/client-01.png" alt="">
+            <img src="{% static 'assets/images/client-01.png' %}" alt="">
           </div>
         </div>
         <div class="col-lg-2 col-sm-4 col-6">
           <div class="item">
-            <img src="assets/images/client-01.png" alt="">
+            <img src="{% static 'assets/images/client-01.png' %}" alt="">
           </div>
         </div>
         <div class="col-lg-2 col-sm-4 col-6">
           <div class="item">
-            <img src="assets/images/client-01.png" alt="">
+            <img src="{% static 'assets/images/client-01.png' %}" alt="">
           </div>
         </div>
         <div class="col-lg-2 col-sm-4 col-6">
           <div class="item">
-            <img src="assets/images/client-01.png" alt="">
+            <img src="{% static 'assets/images/client-01.png' %}" alt="">
           </div>
         </div>
       </div>
@@ -503,9 +499,9 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-12">
-          <p>Copyright © 2022 Mexant Co., Ltd. All Rights Reserved. 
+          <p>Copyright © 2022 Translation Hub World. All Rights Reserved. 
           
-          <br>Designed by <a title="CSS Templates" rel="sponsored" href="https://templatemo.com" target="_blank">TemplateMo</a></p>
+          <!-- <br>Designed by <a title="CSS Templates" rel="sponsored" href="https://templatemo.com" target="_blank">TemplateMo</a></p> -->
         </div>
       </div>
     </div>
@@ -513,15 +509,15 @@
 
   <!-- Scripts -->
   <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="{% static 'vendor/jquery/jquery.min.js' %}"></script>
+    <script src="{% static 'vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
 
-    <script src="assets/js/isotope.min.js"></script>
-    <script src="assets/js/owl-carousel.js"></script>
-    <script src="assets/js/wow.js"></script>
-    <script src="assets/js/tabs.js"></script>
-    <script src="assets/js/swiper.js"></script>
-    <script src="assets/js/custom.js"></script>
+    <script src="{% static 'assets/js/isotope.min.js' %}"></script>
+    <script src="{% static 'assets/js/owl-carousel.js' %}"></script>
+    <script src="{% static 'assets/js/wow.js' %}"></script>
+    <script src="{% static 'assets/js/tabs.js' %}"></script>
+    <script src="{% static 'assets/js/swiper.js' %}"></script>
+    <script src="{% static 'assets/js/custom.js' %}"></script>
     <script>
         var interleaveOffset = 0.5;
 
