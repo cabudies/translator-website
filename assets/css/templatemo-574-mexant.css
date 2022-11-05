@@ -171,7 +171,8 @@ body {
 .orange-button a {
   font-size: 14px;
   color: #fff;
-  background-color: #ff511a;
+  /* background-color: #ff511a; */
+  background-color: #43BA7F;
   padding: 12px 30px;
   display: inline-block;
   border-radius: 5px;
@@ -775,7 +776,8 @@ banner
 
 .slide-inner .header-text h2 em {
   font-style: normal;
-  color: #ff511a;
+  /* color: #ff511a; */
+  color: #43BA7F;
 }
 
 .slide-inner .header-text .buttons {
